@@ -1,0 +1,8 @@
+name: equiz
+description: An equiz Helm Chart based on moodle with coderunner, moodle stack.
+version: 0.0.1
+apiVersion: v1
+keywords:
+  - moodle
+sources:
+home:

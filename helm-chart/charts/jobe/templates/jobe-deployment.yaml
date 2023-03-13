@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    service: jobe
+  name: jobe
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      service: jobe
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        service: jobe
+    spec:
+      containers:
+        - image: {{ .Values.jobeImage }}
+        #- image: trampgeek/jobeinabox:latest
+          name: jobe
+          ports:
+            - containerPort: 80
+          resources: {}
+      restartPolicy: Always
+status: {}
