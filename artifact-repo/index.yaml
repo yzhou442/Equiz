@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  equiz:
+  - apiVersion: v1
+    created: "2023-03-14T00:14:13.148753407+08:00"
+    dependencies:
+    - name: moodle
+      repository: https://charts.bitnami.com/bitnami
+      version: 14.3.2
+    description: An equiz Helm Chart based on moodle with coderunner, moodle stack.
+    digest: b194b61c9df6b58c21be88077961d90c96993e01ba59df48e09317bfaa7ed7a5
+    keywords:
+    - moodle
+    name: equiz
+    urls:
+    - https://github.com/yzhou442/Equiz/tree/main/helm-chart/equiz-0.0.1.tgz
+    version: 0.0.1
+generated: "2023-03-14T00:14:13.141382744+08:00"
