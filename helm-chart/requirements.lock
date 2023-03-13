@@ -1,6 +1,0 @@
-dependencies:
-- name: moodle
-  repository: https://charts.bitnami.com/bitnami
-  version: 14.3.2
-digest: sha256:77391b3299f310785774bafe316d70ba7f58b440990a47173208a9479f1e3c58
-generated: "2022-11-16T00:40:07.028777259+08:00"

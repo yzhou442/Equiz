@@ -1,4 +1,0 @@
-dependencies:
-  - name: moodle
-    version: 14.3.2
-    repository: https://charts.bitnami.com/bitnami

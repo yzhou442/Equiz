@@ -1,1 +1,0 @@
-sed -i "46 i \$http_url = \$scheme . '://' . getenv('MOODLE_HOST') . \$_SERVER['REQUEST_URI'];" bitnami/moodle/lib/ltiprovider/src/OAuth/OAuthRequest.php
