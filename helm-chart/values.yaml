@@ -19,7 +19,7 @@ moodle:
     enabled: true
     apiVersion: networking.k8s.io/v1
     hostname: deep.cs.cityu.edu.hk
-    path: /equiz(/|$)(.*)
+    path: /equiz
     pathType: Prefix
     annotations: 
       cert-manager.io/cluster-issuer: letsencrypt-prod
