@@ -22,7 +22,7 @@ moodle:
     path: /equiz(/|$)(.*)
     pathType: Prefix
     annotations: 
-      cert-manager.io/cluster-issuer: selfsigned-issuer
+      cert-manager.io/cluster-issuer: letsencrypt-prod
       nginx.ingress.kubernetes.io/proxy-body-size: 200M
       nginx.ingress.kubernetes.io/rewrite-target: /$2
     tls: true
